@@ -4,5 +4,3 @@ vendor
 .phpunit.result.cache
 public/laravel-views.js.LICENSE.txt
 **/.DS_Store
-/.vscode
-composer.lock
