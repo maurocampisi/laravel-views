@@ -5,6 +5,7 @@
     action = actionObject.id;
     id = actionObject.modelId;
     message = actionObject.message;
+    confirmButtonText = actionObject.confirmButtonText;
   })"
 >
   <div x-show="open" x-cloak>
@@ -15,7 +16,7 @@
           {{__("Cancel")}}
         </x-lv-button>
         <x-lv-button variant="danger" @click="await $wire.call('confirmAndExecuteAction', action, id, false); open = false" wire:loading.attr="disabled">
-          {{ __("Yes, I'm sure") }}
+          <span x-text="confirmButtonText"></span>
         </x-lv-button>
 
         <x-lv-loading wire:loading />

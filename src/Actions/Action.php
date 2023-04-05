@@ -51,4 +51,9 @@ abstract class Action
     {
         return method_exists($this, 'getConfirmationMessage');
     }
+
+        public function getConfirmButtonText($tem)
+    {
+        return __("Yes, I'm sure");
+    }
 }

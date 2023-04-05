@@ -66,6 +66,7 @@ trait WithActions
     {
         $actionData = [
             'message' => $action->getConfirmationMessage($modelId ? $this->getModelWhoFiredAction($modelId) : null),
+            'confirmButtonText' => $action->getConfirmButtonText($modelId ? $this->getModelWhoFiredAction($modelId) : null),
             'id' => $action->getId()
         ];
 
