@@ -1,5 +1,5 @@
 {
-    "name": "laravel-views/laravel-views",
+    "name": "maurocampisi/laravel-views",
     "description": "Laravel package to create beautiful common views like tables using only PHP code",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,9 @@
         {
             "name": "Gustavo Martinez",
             "email": "gustavinho.martinez@gmail.com"
+        },{
+            "name": "Mauro Campisi",
+            "email": "mauro.campisi@icloud.com"
         }
     ],
     "require": {
