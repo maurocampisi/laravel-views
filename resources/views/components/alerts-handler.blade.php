@@ -5,7 +5,7 @@
     open = true;
     message = notification.message;
     type = notification.type;
-    setTimeout(() => { open = false }, 2500)
+    {{-- setTimeout(() => { open = false }, 2500) --}}
   })"
 >
   <div x-show="open && type === 'danger'">
